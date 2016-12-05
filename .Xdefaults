@@ -1,6 +1,6 @@
-! -----------------------------------------------------------------------------
+! ------------------------------------------------------------------------
 ! URXVT Settings
-! -----------------------------------------------------------------------------
+! ------------------------------------------------------------------------
 
 URxvt.font : xft:Hack:size=13
 URxvt.scrollBar: false
@@ -14,7 +14,7 @@ URxvt*foreground: #8FA388
 URxvt*cursorColor: #BE5E1E
 
 URxvt*color0:  #39474A
-URxvt*color1:  #815339
+URxvt*color1:  #986345
 URxvt*color2:  #788249
 URxvt*color3:  #9B6A46
 URxvt*color4:  #3E5951
@@ -30,5 +30,5 @@ URxvt*color13: #D69D55
 URxvt*color14: #668574
 URxvt*color15: #AB9C71
 
-URxvt.perl-ext-common:                fullscreen
-URxvt.keysym.F11:                     perl:fullscreen:switch
+!URxvt.perl-ext-common:                fullscreen
+!URxvt.keysym.F11:                     perl:fullscreen:switch
