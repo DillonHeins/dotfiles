@@ -5,30 +5,42 @@
 URxvt.font : xft:Hack:size=13
 URxvt.scrollBar: false
 
-URxvt*background: #1D2426
-URxvt*foreground: #8FA388
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
 
-! Alternate foreground
-!URxvt*foreground: #AB9C71
+! black
+*.color0:       #1d1f21
+*.color8:       #969896
 
-URxvt*cursorColor: #BE5E1E
+! red
+*.color1:       #cc6666
+*.color9:       #cc6666
 
-URxvt*color0:  #39474A
-URxvt*color1:  #986345
-URxvt*color2:  #788249
-URxvt*color3:  #9B6A46
-URxvt*color4:  #3E5951
-URxvt*color5:  #B9924A
-URxvt*color6:  #5d796a
-URxvt*color7:  #977D5E
-URxvt*color8:  #4C5F63
-URxvt*color9:  #B07350
-URxvt*color10: #869151
-URxvt*color11: #AF6B42
-URxvt*color12: #567A6E
-URxvt*color13: #D69D55
-URxvt*color14: #668574
-URxvt*color15: #AB9C71
+! green
+*.color2:       #b5bd68
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #f0c674
+*.color11:      #f0c674
+
+! blue
+*.color4:       #81a2be
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #b294bb
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #8abeb7
+*.color14:      #8abeb7
+
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
 
 !URxvt.perl-ext-common:                fullscreen
 !URxvt.keysym.F11:                     perl:fullscreen:switch
